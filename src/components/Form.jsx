@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import SignUpForm from "./SignUpForm";
 import SuccessForm from "./SuccessForm";

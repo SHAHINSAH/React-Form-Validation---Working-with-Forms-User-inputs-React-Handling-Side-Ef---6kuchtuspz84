@@ -6,7 +6,9 @@ function SuccessForm({ username }) {
 
   return (
     <div>
+
       <h2>Hello {username}</h2>
+      
     </div>
   );
 }

@@ -13,7 +13,7 @@ export default function ValidateForm(values) {
   Phone Number must be number.
   Error Message: Phone Number must contain only numbers
   Password length at least should be 6.
-  Error Message: Password must contain atleast 6 letters */
+  Error Message: Password must contain atleast 6 letters. */
   
     // name
     if (!values.name.trim()) {

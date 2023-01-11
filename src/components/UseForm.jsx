@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function UseForm(callback, /* emailProfile ,*/ validate) {
+function useForm(callback, /* emailProfile ,*/ validate) {
   const [values, setValues] = useState({
     name: "",
     email: "",
@@ -39,4 +39,4 @@ function UseForm(callback, /* emailProfile ,*/ validate) {
   return { handleChange, values, handleSubmit, errors };
 }
 
-export default UseForm;
+export default useForm;

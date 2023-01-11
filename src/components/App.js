@@ -14,7 +14,7 @@ const App = () => {
     let name = el.target.name;
     let value = el.target.value;
 
-    setInputs((prevValue) =>{
+    setInputs((prevValue) => {
       return {
         ...prevValue,
         [name]: value

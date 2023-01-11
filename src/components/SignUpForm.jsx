@@ -1,6 +1,6 @@
 import React, { Component, useState } from "react";
 import "../styles/App.css";
-import useForm from "./useForm";
+import useForm from "./UseForm";
 import validate from "./ValidateForm";
 
 const SignUpForm = (props) => {
@@ -9,7 +9,7 @@ const SignUpForm = (props) => {
     /* props.emailProfile, */ validate
   );
 
-  /* Form must have the following Input Fields with given attributes:
+  /* Form must have the following Input Fields with given attributes-:
 1) Name | data-testid = 'name'
 2) Email address | data-testid = 'email'
 3) Gender | data-testid = 'gender'
